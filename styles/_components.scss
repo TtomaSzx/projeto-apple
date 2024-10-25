@@ -1,0 +1,16 @@
+@use "variables";
+
+.header {
+  text-align: center;
+  padding: 2rem;
+
+  h1 {
+    font-size: 2.5rem;
+    color: variables.$text-color;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: color.adjust(variables.$text-color, $lightness: -20%);
+  }
+}
